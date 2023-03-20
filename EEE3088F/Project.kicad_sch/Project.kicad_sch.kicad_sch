@@ -1,0 +1,58 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 0ca6047e-3a57-437d-8b18-e5fa2dae2991)
+
+  (paper "A4")
+
+  (title_block
+    (title "HAT Sensor Schematic")
+    (date "2023-03-14")
+    (rev "2")
+    (company "EEE3088F Project")
+    (comment 1 "VSTMIC004")
+    (comment 2 "NDXTRI021")
+    (comment 3 "BYLSAM003")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 34.29 66.04) (size 40.64 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3293e0f1-b707-49e7-b554-9e09a069ee7b)
+    (property "Sheetname" "Temperature Sensor" (at 34.29 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "TempSensor.kicad_sch" (at 34.29 99.6446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Project.kicad_sch"
+        (path "/0ca6047e-3a57-437d-8b18-e5fa2dae2991" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 34.29 116.84) (size 40.64 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 750cdcbd-6fc3-4e6f-a24e-97996f98df55)
+    (property "Sheetname" "Temperature and Humidity Sensor" (at 34.29 116.1284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "TempHumidSensor.kicad_sch" (at 34.29 149.1746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Project.kicad_sch"
+        (path "/0ca6047e-3a57-437d-8b18-e5fa2dae2991" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
