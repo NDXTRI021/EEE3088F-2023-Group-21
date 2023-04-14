@@ -1,9 +1,1 @@
-Power Submodule: USD 11.91
-
-Interface Submodule: USD 0.00
-
-Sensor Submodule: USD 20.15
-
-
-
-Total: USD 32.06
+https://docs.google.com/spreadsheets/d/13G2TfoHRHSaWItwZIS58WQmcHReWaXQ9Cv6dVpvdkMI/edit?usp=sharing
